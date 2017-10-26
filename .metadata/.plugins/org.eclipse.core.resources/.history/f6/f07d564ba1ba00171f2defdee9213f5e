@@ -5,21 +5,21 @@ import java.util.logging.Logger;
 
 
 public class Thread implements Runnable {
-	private int start;
-	private int end;
+	private int qtdThread;
+	private int resto;
 	
 	
-	public Thread(int start,int end){
-		this.start = start;
-		this.end = end;
+	public Thread(int qtdThread){
+		this.qtdThread = qtdThread;
+		this.resto = (100 % this.qtdThread);
 	}
 	
 
 	@Override
 	public void run() {
 		
-		for(int i=start; i<=this.end;i++){
-			System.out.println(i);
+		for(int i=1; i<=this.resto;i++){
+			System.out.print(i);
 		}
 		
 		
