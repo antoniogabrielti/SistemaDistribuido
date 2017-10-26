@@ -1,0 +1,25 @@
+package Atividade2;
+
+import java.util.Scanner;
+
+/*Crie uma aplicação concorrente que imprima todos os valores de 1 a 100. O número de Threads é
+solicitado ao usuário e cada Thread vai ser responsável por uma sequência de números, conforme o
+resto da divisão de 100 pelo número de Threads.*/
+public class main {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int numThread;
+		int i=0;
+		
+		System.out.print("informe o numero de Thread:");	
+		numThread = teclado.nextInt();
+		
+		while(i<numThread){
+			Thread nova = new Thread(numThread);
+			nova.run();
+		}
+
+	}
+
+}

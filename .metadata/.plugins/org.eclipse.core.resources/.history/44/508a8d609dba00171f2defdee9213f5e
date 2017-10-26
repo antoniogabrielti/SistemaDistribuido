@@ -1,0 +1,12 @@
+package Atividade2;
+/*Crie uma aplicação concorrente que imprima todos os valores de 1 a 100. O número de Threads é
+solicitado ao usuário e cada Thread vai ser responsável por uma sequência de números, conforme o
+resto da divisão de 100 pelo número de Threads.*/
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
