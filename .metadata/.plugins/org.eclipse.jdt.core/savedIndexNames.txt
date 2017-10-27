@@ -14,7 +14,6 @@ INDEX VERSION 1.129+C:\Users\200602416\Documents\SistemaDistribuido\.metadata\.p
 2167310551.index
 3256285438.index
 486699731.index
-2329275979.index
 1904741536.index
 375126478.index
 3119455041.index

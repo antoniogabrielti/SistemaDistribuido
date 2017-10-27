@@ -20,13 +20,12 @@ public class Main {
 		
 		resto = (100 / numThread);
 		end = resto;
-		
 		while(i<numThread){
+			System.out.println("numThread:"+numThread);
 			Thread nova = new Thread(start,end);
 			nova.run();
 			start = end;
 			end = end + resto;
-			i++;
 		}
 	}
 }
